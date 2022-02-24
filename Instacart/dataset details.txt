@@ -1,0 +1,10 @@
+The Datasets present Customer, Products, orders and aisle related details
+Each dataset have their own unique id 
+
+#Datasets
+aisle - The dataset has details of the aisle with an unique id
+department - This dataset has the detail as which department the product belongs to
+order_product and order_product_prior - Order details and Customers previous order details(reordered means customer 
+ordered this product in both previous and current order)
+order - order placed details
+product - Product details with their aisle and department details

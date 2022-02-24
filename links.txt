@@ -1,3 +1,4 @@
 Life Expectancy : https://www.kaggle.com/kumarajarshi/life-expectancy-who/
 Cancer : https://data.world/nrippner/ols-regression-challenge
 AUS Weather : https://www.kaggle.com/jsphyg/weather-dataset-rattle-package
+instacart : https://www.kaggle.com/c/instacart-market-basket-analysis/data

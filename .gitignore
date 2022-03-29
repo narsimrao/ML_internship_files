@@ -4,3 +4,4 @@ Aus_weather\models\RandomForest.sav
 Aus_weather/models/RandomForest.sav
 Datasets/instacart
 Instacart/Dataset
+*.sav

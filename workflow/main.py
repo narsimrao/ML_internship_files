@@ -11,7 +11,7 @@ import os
 titanic_data = pd.read_csv('train.csv')
 
 # Preprocessing
-print('prerpocessing started..')
+print('preprocessing started..')
 X_train, X_test, Y_train, Y_test = preprocessing.preprocessing(titanic_data)
 print('preprocessing completed..')
 

@@ -24,9 +24,13 @@ class model:
 
         RF_model = GridSearchCV(RandomForestClassifier(random_state=42), param_grid=param,cv=5, n_jobs=-1, scoring='roc_auc')
 
-
+        print('Fitting Logistic Regression')
         LR_model.fit(X_train, Y_train)
+
+        print('Fitting Random Forest')
         RF_model.fit(X_train, Y_train)
+
+        print('Fitting Decision Tree')
         DT_model.fit(X_train, Y_train)
 
         return LR_model, RF_model, DT_model
